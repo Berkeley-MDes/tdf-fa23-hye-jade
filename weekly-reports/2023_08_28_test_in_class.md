@@ -7,3 +7,8 @@ type some regular text.
 
 Format:
 ![this is your image title] (this is the link to the image)
+
+
+- one
+- two
+- three
