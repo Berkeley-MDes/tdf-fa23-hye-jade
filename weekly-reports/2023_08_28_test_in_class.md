@@ -25,3 +25,9 @@ Reflections
 Speculations
 
 bold text (heading 은 이미 bold), ### 개수가 글씨크기.
+
+**쏘ㅑㄴ ㅑㄴ ㅠㅐㅣㅇ ㅅㄷㅌㅅ**
+
+_ITALIC_ 
+
+WIKI에서 마크다운에 관해서 찾아볼 수 있다. 
