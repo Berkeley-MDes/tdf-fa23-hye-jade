@@ -3,8 +3,9 @@ I learned how to use Rhino, at first, it was also difficult to get a grip on the
 Now I can set display mode set to "Wireframe". 
 
 **Command function**
-Since there are too many icons and functions in the program, it's convenient to use "Command" function like this.
+- Since there are too many icons and functions in the program, it's convenient to use "Command" function like this.
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6c751f0b-4a0e-49b3-88e4-ebc7091ff079)
+
 I used more commands below.
 - 4View
 - _Group(or Ctrl+G)
