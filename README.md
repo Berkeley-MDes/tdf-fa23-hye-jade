@@ -1,7 +1,8 @@
 # [Week of 08/31/2023] Computational Design #1
-처음에는 Rhino에서 4사분면에 대해 파악하는 것도 어려웠다.
+I learned how to use Rhino, at first, it was also difficult to get a grip on the four quadrants on the Rhino's screen.
+Now I can set display mode set to "Wireframe". 
 
-Display mode set to "Wireframe" 
+
 4View
 _Group or Ctrl+G 
 Grasshopper
