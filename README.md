@@ -26,6 +26,29 @@ I used more commands below.
 - Grasshopper(to open Grasshopper)
 - etc...
 
+**Customizing Phonestand to my phone**
+1) Measuring
+I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 * 12
+
+*"Well...While taking pictures of the process of measuring the phone size with an iPad, I felt once again that I needed a phonestand!"*
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/d4b9ce03-f009-4048-87c4-4015cc0f9ad1)
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bef15227-1e0d-497c-8bd4-d5670c5fbed3)
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/2f1ece46-c557-4a4c-8807-284da8a936e8)
+
+3) Adjusting Phone Size
+![phone size](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/befff3fe-b485-431c-bf37-f68b12968135)
+
+4) Adjusting Student Activity Range and Height 
+![1100_1187](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e7ee61c2-c485-4f4f-8a69-4f633b9790f1)
+![height](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e000db09-ff4a-4a5c-8126-063ec8fdb8c0)
+
+**Bake**
+- To make it as a 2D model and to select for export, I should 'bake' it in Grasshopper.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/5bb61273-1bd1-4723-9375-ccb4f9ff0cfe)
+
+
 **Placing objects**
 - Set Layer and color code it. When you export, it will automatically be red and easy to adjust for cutting.
 
@@ -52,27 +75,6 @@ I used more commands below.
 
 - Turn on the [View > CPU preview] to make missing lines visible
 
-**Customizing Phonestand to my phone**
-1) Measuring
-I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 * 12
-
-*"Well...While taking pictures of the process of measuring the phone size with an iPad, I felt once again that I needed a phonestand!"*
-
-![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/d4b9ce03-f009-4048-87c4-4015cc0f9ad1)
-![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bef15227-1e0d-497c-8bd4-d5670c5fbed3)
-![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/2f1ece46-c557-4a4c-8807-284da8a936e8)
-
-3) Adjusting Phone Size
-![phone size](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/befff3fe-b485-431c-bf37-f68b12968135)
-
-4) Adjusting Student Activity Range and Height 
-![1100_1187](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e7ee61c2-c485-4f4f-8a69-4f633b9790f1)
-![height](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e000db09-ff4a-4a5c-8126-063ec8fdb8c0)
-
-**Bake**
-- To make it as a 2D model and to select for export, I should 'bake' it in Grasshopper.
-
-![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/5bb61273-1bd1-4723-9375-ccb4f9ff0cfe)
 
 **Settings for Laser cutting**
 - It is helpful to check which area is available to reuse material. (click "Focusview" and set where do you want to set the laser.)
