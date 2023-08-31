@@ -1,6 +1,17 @@
 # [Week of 08/31/2023] Computational Design #1
 처음에는 Rhino에서 4사분면에 대해 파악하는 것도 어려웠다.
 
+Display mode set to "Wireframe" 
+4View
+_Group or Ctrl+G 
+Grasshopper
+
+Since there are too many icons and functions in the program, it's convenient to use "Command" function.
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6c751f0b-4a0e-49b3-88e4-ebc7091ff079)
+
+Set Layer (when you export, it will automatically be red and easy to cut)
+The pieces were placed out of the board, so I used "move to 0" so that it is visible in the illustrator.
+The grid didn't show up, so typed "Grid" and changed "ShowGridAxes=Yes", "ShowGrid=Yes"
 
 폰 크기 재는거 아이패드로 재다보니 거치대 필요할것같다!
 
@@ -9,6 +20,7 @@ Bake
 
 Command 창의 존재를 알게 됐다.
 
+Cody의 좋아하는 설정. 사용하기 편리하다. 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8bbd3a19-0737-411e-930c-bd7ca3a847a7)
 
 
