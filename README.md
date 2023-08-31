@@ -41,7 +41,7 @@ I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/5bb61273-1bd1-4723-9375-ccb4f9ff0cfe)
 
-**Laser cutting**
+**Settings for Laser cutting**
 - It is helpful to check which area is available to reuse material. (click "Focusview" and set where do you want to set the laser.)
 
   ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/92ca893f-f58b-477f-a1a4-3e2ff6f01820)
@@ -53,17 +53,25 @@ I changed my design's location a little bit to adjust with the reuse material.
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/7f22c7a1-a01f-4e58-ae9f-c8b9363e0c0a)
 
+material setting
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/11ea8a9a-26ff-4f4a-b741-347e85847e13)
 
 - this is the setting for intensity. I could set like this, and it's better to check with fingers after cutting to see if it is well cut.
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/ff57d999-edf2-415a-9217-f4ebe34ad9ed)
 
+**Preparation!**
+I turned on the laser exhaust switch, checked if air flows, and turned on the compressed air switch!
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/08b02eee-531a-4817-88a0-61265b735bf8)
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4938e296-7405-4050-ab9a-983de82ae628)
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/16fa1790-0aad-447b-8447-991e50d23c2d)
 
 - I found this sign later, I was almost playing around but I realized that I shouldn't have done that.
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/75b36ee4-c161-4b66-b7c5-b65273f3734b)
-
-
 
 
 **Results**
