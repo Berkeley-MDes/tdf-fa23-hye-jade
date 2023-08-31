@@ -1,9 +1,17 @@
-# Hello DES INV 202 Student!
-Welcome to your new GitHub repository! 
+# [Week of 08/31/2023] Computational Design #1
+처음에는 Rhino에서 4사분면에 대해 파악하는 것도 어려웠다.
 
-If you’re new to GitHub, you can think of this as a shared file space (like a Google Drive folder, or a like a USB drive that’s hosted online.) 
 
-This is your space to store project files, videos, PDFs, notes, images, etc., and (hopefully, neatly) organize so it's easy for viewers (and you!) to navigate. That said, it’s super easy for you to share any file or folder with us (your TDF instructional team) - just send us the link! 
+폰 크기 재는거 아이패드로 재다보니 거치대 필요할것같다!
+
+Bake 
+0
+
+Command 창의 존재를 알게 됐다.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8bbd3a19-0737-411e-930c-bd7ca3a847a7)
+
+
 
 The specific file that I’m typing into right now is the **README.md** for this repo. 
 ##### (💡 TIP: The .md indicates that we’re using [Markdown formatting.](https://www.markdownguide.org/cheat-sheet/)) #####
