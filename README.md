@@ -81,3 +81,21 @@ Succeed!
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/feb05ed8-3685-40e6-9f1f-f1ec0b99df17)
 
 
+
+
+**In this writing, reflect thoughtfully on your personal performance since last week. Did you take an opportunity to help out a classmate?  Were you able to meet your personal expectations?  What helped or hindered your performance?  Use full sentences.**
+
+During my undergraduate years, I had the opportunity to briefly experience using laser cutting and Rhino. I thought it wouldn't be too difficult, but it turned out to be more challenging than I anticipated. (I faced difficulties from the moment I opened the Rhino program.) Rather than meeting my personal expectations, my proficiency with Rhino was still quite low, which was disappointing. However, I plan to look for tutorials and put in more effort to improve in the future.
+
+What truly helped with my progress was the assistance of the design specialist. When I visited the makers space in a somewhat urgent situation, the design specialist patiently guided me in a way that was easy to understand, enabling me to complete the task. I regret not seeking help earlier and I've realized the importance of being more proactive in asking questions and seeking advice in the future.
+
+One positive aspect I want to highlight about my achievements is that I diligently documented the usage and settings of Rhino, Grasshopper, and laser cutting techniques through photos and notes, so that I can remember them when using them in the future. Additionally, I find it enjoyable to explore GitHub, which I'm using for the first time. While I started the assignment a bit late and didn't have the chance to 'physically' assist my classmates, I was glad to help a few friends with things like finding information about laser cutting reservations or setting up GitHub repositories.
+
+**In this writing, reflect thoughtfully on your cohort's performance since the week.  Was there anything that surprised you? Are you grateful for assistance from a classmate? Is there anything that you can contribute that would improve the experience? Use full sentences.**
+
+ Actually when I first opened Rhino, I only saw a simple circle and couldn't see any objects. Like this, I found it difficult to follow the assignment instructions, as there were no specific solutions provided. Also, I had to search for information from various sources like the wiki, GitHub, bcourse, Google Drive, and more, which made the task challenging. I was impressed by how everyone seemed to easily find the necessary information and complete the assignment.
+ 
+ It was also nice to see how people were reusing materials effectively even if no one told to do that. Furthermore, when I mentioned that I was having trouble finding time for laser cutting, a friend offered to split their reserved time with me. (In the end, I managed to make a reservation myself.) 
+ 
+ It would be great if we have a clear outline of exactly what tasks need to be done by the deadline.(Maybe I could do that!) Also, I hope I can help friends around me and contribute to their learning after becoming more familiar with the software.
+
