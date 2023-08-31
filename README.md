@@ -28,7 +28,6 @@ I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bef15227-1e0d-497c-8bd4-d5670c5fbed3)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/2f1ece46-c557-4a4c-8807-284da8a936e8)
 
-
 3) Adjusting Phone Size
 ![phone size](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/befff3fe-b485-431c-bf37-f68b12968135)
 
@@ -62,7 +61,7 @@ material setting
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/ff57d999-edf2-415a-9217-f4ebe34ad9ed)
 
 **Preparation!**
-I turned on the laser exhaust switch, checked if air flows, and turned on the compressed air switch!
+- I turned on the laser exhaust switch, checked if air flows, and turned on the compressed air switch!
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/08b02eee-531a-4817-88a0-61265b735bf8)
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4938e296-7405-4050-ab9a-983de82ae628)
@@ -70,12 +69,13 @@ I turned on the laser exhaust switch, checked if air flows, and turned on the co
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/16fa1790-0aad-447b-8447-991e50d23c2d)
 
 - I found this sign later, I was almost playing around but I realized that I shouldn't have done that.
-
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/75b36ee4-c161-4b66-b7c5-b65273f3734b)
 
 
 **Results**
-Succeed!
+
+Succeed! But I want it to be more study. I thought it would be better to adjust the hole size or add a few more slots to make it fit a bit more snugly. Also there were too much soot in the wood!!!
+
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4cc3e614-81b7-45db-8c80-5c65e48772f8)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b3659a51-d768-4d0c-9657-be46945dc458)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/feb05ed8-3685-40e6-9f1f-f1ec0b99df17)
