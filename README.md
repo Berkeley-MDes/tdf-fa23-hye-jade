@@ -23,6 +23,7 @@ I used more commands below.
 I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 * 12
 
 *"Well...While taking pictures of the process of measuring the phone size with an iPad, I felt once again that I needed a phonestand!"*
+
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/d4b9ce03-f009-4048-87c4-4015cc0f9ad1)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bef15227-1e0d-497c-8bd4-d5670c5fbed3)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/2f1ece46-c557-4a4c-8807-284da8a936e8)
@@ -41,6 +42,26 @@ I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/5bb61273-1bd1-4723-9375-ccb4f9ff0cfe)
 
 **Laser cutting**
+- It is helpful to check which area is available to reuse material. (click "Focusview" and set where do you want to set the laser.)
+
+  ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/92ca893f-f58b-477f-a1a4-3e2ff6f01820)
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6cbd9f19-6633-41f3-b2b7-0f1313793466)
+
+I changed my design's location a little bit to adjust with the reuse material.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/be58a5ce-9b4d-4222-a0a9-a77bb7a623da)
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/7f22c7a1-a01f-4e58-ae9f-c8b9363e0c0a)
+
+
+- this is the setting for intensity. I could set like this, and it's better to check with fingers after cutting to see if it is well cut.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/ff57d999-edf2-415a-9217-f4ebe34ad9ed)
+
+
+- I found this sign later, I was almost playing around but I realized that I shouldn't have done that.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/75b36ee4-c161-4b66-b7c5-b65273f3734b)
 
 
 
