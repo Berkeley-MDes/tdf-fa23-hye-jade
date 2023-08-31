@@ -24,13 +24,33 @@ I used more commands below.
 - 4View (only for perspective view, 'wireframe' for others)
 - _Group(or Ctrl+G)
 - Grasshopper(to open Grasshopper)
+- etc...
 
 **Placing objects**
--  Set Layer and color code it. When you export, it will automatically be red and easy to adjust for cutting.
+- Set Layer and color code it. When you export, it will automatically be red and easy to adjust for cutting.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4180ee33-464c-40d4-bf11-ad06722d0b2c)
+
 - The pieces were placed out of the board, so I used "move to 0" so that it is visible in the illustrator.
+  
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/f50213e8-9f14-40c6-9779-8feddc2b3f64)
+
 - The grid didn't show up, so typed "Grid" and changed "ShowGridAxes=Yes", "ShowGrid=Yes"
 - It's Cody's little tips! His favorite settings are like this, and it is convenient to use! 'Onsnap' makes it easier to draw lines.
+
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8bbd3a19-0737-411e-930c-bd7ca3a847a7)
+
+**Export**
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e37fbe4f-fe9b-436f-a574-95a1455404cc)
+
+**Illustrator**
+
+- Document settings : 32 * 18 inches (our laser cutter's size)
+  
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/904ce791-5629-4537-a4de-2825781d86a3)
+
+- Turn on the [View > CPU preview] to make missing lines visible
 
 **Customizing Phonestand to my phone**
 1) Measuring
@@ -50,7 +70,7 @@ I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 
 ![height](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e000db09-ff4a-4a5c-8126-063ec8fdb8c0)
 
 **Bake**
-- To make it as a 2D model, I should 'bake' it in Grasshopper.
+- To make it as a 2D model and to select for export, I should 'bake' it in Grasshopper.
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/5bb61273-1bd1-4723-9375-ccb4f9ff0cfe)
 
@@ -95,7 +115,6 @@ Succeed! But I want it to be more study. I thought it would be better to adjust 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4cc3e614-81b7-45db-8c80-5c65e48772f8)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b3659a51-d768-4d0c-9657-be46945dc458)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/feb05ed8-3685-40e6-9f1f-f1ec0b99df17)
-
 
 
 
