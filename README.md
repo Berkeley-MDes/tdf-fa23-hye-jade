@@ -1,18 +1,32 @@
 # [Week of 08/31/2023] Computational Design #1
 I learned how to use Rhino, at first, it was also difficult to get a grip on the four quadrants on the Rhino's screen.
-Now I can set display mode set to "Wireframe". 
+
+**WHY I can only see the circle in the middle?**
+
+When I first opened Rhino, I was surprised as I saw only a simple circle drawn. 
+With the help of design specialist, I typed 'grasshopper' in the command prompt to open the Grasshopper program. Upon pressing the green button, all the objects became visible. According to the design specialist, it's common to keep the green button off and choose to drag and view only the parts you need in Grasshopper.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6ae8f7de-611e-46e0-8bab-dccc261781ea)
+
+The parts that appear as orange lines in Grasshopper don't have any effect on the code, design specialist said. So, it's good to group and disable them using Ctrl+G. By going through this disabling process, the program becomes lighter and rendering speeds up. In Cody's case, he had designed the train system for Anaheim. If he turned on all interactions at once in Grasshopper, it would cause a system crash.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/174e1765-61c1-4ea1-b527-c9ea29bbb770)
+
+
+As I explored the Grasshopper program, it's considered a tool for parametric modeling and relationship design. The aspect that stood out to me was the ability to visualize the code, allowing you to see the relationships between objects at a glance.
+
 
 **Command function**
 - Since there are too many icons and functions in the program, it's convenient to use "Command" function like this.
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6c751f0b-4a0e-49b3-88e4-ebc7091ff079)
 
 I used more commands below.
-- 4View
+- 4View (only for perspective view, 'wireframe' for others)
 - _Group(or Ctrl+G)
 - Grasshopper(to open Grasshopper)
 
 **Placing objects**
-- Set Layer and color code it. When you export, it will automatically be red and easy to adjust for cutting.
+-  Set Layer and color code it. When you export, it will automatically be red and easy to adjust for cutting.
 - The pieces were placed out of the board, so I used "move to 0" so that it is visible in the illustrator.
 - The grid didn't show up, so typed "Grid" and changed "ShowGridAxes=Yes", "ShowGrid=Yes"
 - It's Cody's little tips! His favorite settings are like this, and it is convenient to use! 'Onsnap' makes it easier to draw lines.
@@ -46,19 +60,21 @@ I need to consider the phonecase sizes as well. It was --> H * W * T = 150 * 75 
   ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/92ca893f-f58b-477f-a1a4-3e2ff6f01820)
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6cbd9f19-6633-41f3-b2b7-0f1313793466)
 
-I changed my design's location a little bit to adjust with the reuse material.
+- I changed my design's location a little bit to adjust with the reuse material.
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/be58a5ce-9b4d-4222-a0a9-a77bb7a623da)
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/7f22c7a1-a01f-4e58-ae9f-c8b9363e0c0a)
 
-material setting
+- Material setting
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/11ea8a9a-26ff-4f4a-b741-347e85847e13)
 
-- this is the setting for intensity. I could set like this, and it's better to check with fingers after cutting to see if it is well cut.
+- This is the setting for intensity. I could set like this, and it's better to check with fingers after cutting to see if it is well cut.
 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/ff57d999-edf2-415a-9217-f4ebe34ad9ed)
+
+- Line thickness should be 0.001pt, and Blue and Black line has different function. Blue will just follow lines and engrave it, black will engrave all along the lines and the surface inside.
 
 **Preparation!**
 - I turned on the laser exhaust switch, checked if air flows, and turned on the compressed air switch!
