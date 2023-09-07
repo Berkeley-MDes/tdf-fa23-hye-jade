@@ -1,5 +1,6 @@
 # [Week of 09/07/2023] Computational Design #2
 **Good things about Grasshopper**
+
 Common 3D modeling programs, including Rhino, work in a clear-cut beginning-to-end fashion, like drawing guidelines, then points, then lines, and finally creating faces. Therefore, it is difficult to go back to that point in time and make corrections in the case of past work that has already passed to some extent(even if there are some differences between programs). Therefore, perfect design must precede 3D modeling, and inevitably, if the design is changed during 3D modeling, the work process that has been carried out so far must be discarded and returned to a point in time a long time ago.
 
 This exposes the weaknesses of common 3D modeling programs in two respects. First, since all of the previous work is invalidated, the work time increases exponentially whenever the design is changed during the 3D modeling process. Second, although the design can be improved in the process of concretely expressing what was in the imagination or sketch through 3D modeling, creative thinking to seek a better design is completely abandoned during 3D modeling due to the above reasons.
@@ -8,9 +9,9 @@ However, in Grasshopper, **all individual tasks are done through components**, a
 
 With this, Grasshopper perfectly overcomes the two weaknesses of common 3D modeling programs described above.
 
-First, during the process of 3D modeling, the design can be changed at any time by manipulating past components that have already passed, so even if the design is changed, the working time does not increase at all. If you are only changing the numerical value of a component, it only takes 1-2 seconds. Even if the design is drastically changed, the work time is not increased due to things unrelated to the change work because only the parts that need modification can be cut and replaced with new components.
+**First, during the process of 3D modeling, the design can be changed at any time by manipulating past components that have already passed, so even if the design is changed, the working time does not increase at all.** If you are only changing the numerical value of a component, it only takes 1-2 seconds. Even if the design is drastically changed, the work time is not increased due to things unrelated to the change work because only the parts that need modification can be cut and replaced with new components.
 
-Second, since the work efficiency according to design change is very high, creative thoughts can be made at any time to improve the design while doing 3D modeling, and it can be easily reflected in the design. In addition, even if only the numerical value of a specific component is changed in various ways, various variations with the same design identity can be created. Furthermore, it is possible to create a new design that simultaneously contains the identity of the two designs by well connecting the components that make up the two unrelated designs.
+**Second, creative thoughts can be made at any time to improve the design while doing 3D modeling, and it can be easily reflected in the design since the work efficiency according to design change is very high.** In addition, even if only the numerical value of a specific component is changed in various ways, various variations with the same design identity can be created. Furthermore, it is possible to create a new design that simultaneously contains the identity of the two designs by well connecting the components that make up the two unrelated designs.
 
 
 
