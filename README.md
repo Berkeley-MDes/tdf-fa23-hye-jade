@@ -13,6 +13,64 @@ With this, Grasshopper perfectly overcomes the two weaknesses of common 3D model
 
 **Second, creative thoughts can be made at any time to improve the design while doing 3D modeling, and it can be easily reflected in the design since the work efficiency according to design change is very high.** In addition, even if only the numerical value of a specific component is changed in various ways, various variations with the same design identity can be created. Furthermore, it is possible to create a new design that simultaneously contains the identity of the two designs by well connecting the components that make up the two unrelated designs.
 
+This week, I explored Grasshopper that I didn't really know how to use.
+
+**Components**
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/426d6b0a-893c-4751-91ee-ac8d08e5ba4a)
+
+When a component is selected by left-clicking, the component turns green and is activated in the Grasshopper.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/abd3a606-2c6b-4e85-9a4c-04f67a6aa3ee)
+
+You can know the current state through the component color.
+- light gray: works fine
+- Dark gray: Component preview OFF state
+- Orange: Components with minor issues, issues need to be identified and resolved
+- Red: A component with a big problem, it is highly likely that an incorrect value was entered.
+
+**Wire**
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/006243be-99e9-4806-acfc-1a70ffcf1818)
+
+The data structure can be inferred by looking at the shape of the wire.
+- 1 item in 1 branch: single line
+- 2 or more items in 1 branch: double line
+- Two or more branches: dotted line
+
+  ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bd731c37-5321-4061-b34e-be9c82cf7896)
+
+To break a connected wire, hold down ctrl while dragging.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/98f50127-3013-4b7a-8abc-2320b5e6ab4e)
+
+If you want to connect two or more wires at one place, hold down the shift key while dragging.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/0288f753-e9f9-4a40-9283-e3ea2fed5cc6)
+
+If you want to move two or more wires to different places at once, drag them while pressing Ctrl+Shift at the same time.
+
+**Set&Bake**
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/328f5654-f76a-4664-bb80-83167d7eaea8)
+
+The meaning of Set is to bring information from Rhino to the Grass Hopper. To set, after creating the information to be set and appropriate components in Grasshopper, select the information to be set in Rhino, right-click and press the set button. Set One is used to enter one piece of information, and Set Multiple is used to enter multiple pieces of information.
+
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/f5796cbb-6cc2-4136-9afa-704cf3cd976e)
+
+Bake, on the other hand, is used when exporting from Grasshopper to Rhino. Before Bake, the form seen in the Rhino window is just a preview before it is implemented in Rhino, literally a preview, and information is actually output only when Bake is performed. For Bake, select the component to export, open the radial menu, and select the fried egg shape at the bottom right.
+
+**Radial menu**
+To open the radial menu, use Ctrl + Space bar or middle mouse wheel click.
+
+- Disable/Enable Preview: Disable/enable preview, Ctrl+Q is convenient.
+- Group: Grouping creates a background color, which is good for highlighting or distinguishing algorithms. If you right-click the background color part and enter text in the empty space at the top, you can also set the name you want. You can also -change several properties or change the background color.
+- Cluster: A cluster is a function that organizes repeated parts or overly complicated algorithms to express algorithms more clearly.
+- Preferences: The Grasshopper settings window appears.
+- Navigate: similar to the game's minimap
+- Disable/Enable: Disable/enable component
+- Zoom: Similar to Rhino's zoom_selected function, fills the Rhino window with the part corresponding to the component selected in Grasshopper to find it.
 
 
 # [Week of 08/31/2023] Computational Design #1
