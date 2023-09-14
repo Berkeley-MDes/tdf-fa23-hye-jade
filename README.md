@@ -1,3 +1,10 @@
+# [Week of 09/14/2023] Computational Design #3
+
+Video Submission day! 
+I have every progress for this week in this video : 
+https://youtu.be/qrvmXjAUm_U
+
+
 # [Week of 09/07/2023] Computational Design #2
 **Good things about Grasshopper**
 
