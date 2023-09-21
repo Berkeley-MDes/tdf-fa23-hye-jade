@@ -1,3 +1,30 @@
+# [Week of 09/21/2023] Proton2 #1
+
+We'll start to play with proton! 
+
+I tried to do the wifi connection at home, but Particle couldn't find the network. 
+
+I tried to solve the problem but I couldn't at the end... 
+
+I will organize the process anyway!
+
+
+1. Update the particle device
+![화면 캡처 2023-09-21 082532](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/75b90e94-4192-4017-b5d7-ab358434a15a)
+
+2. Create my device
+![화면 캡처 2023-09-21 082702](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/a86fcf5a-c245-4da1-a5d7-6a4c0fc7e36f)
+
+3. Give a name! 
+![화면 캡처 2023-09-21 082721](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/f70a8e3a-0c02-4251-b8fa-570cf5aa4f35)
+
+4. Tried to get wifi at home but it didn't work.... and I tried from process1 but it showed like this
+![화면 캡처 2023-09-21 091136](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/5f5a1fe2-56bf-4d1e-bca9-ba4fc3b349a8)
+
+
+I need to take time work more on this. I think I should find another network from visiting my friends home.
+
+
 # [Week of 09/14/2023] Computational Design #3
 
 Video Submission day! 
