@@ -1,3 +1,31 @@
+# [Week of 09/28/2023] Proton2 #2
+
+This week, we gained insight into using Proton2 by making an LED work. Additionally, we conducted a brainstorming session for ideas for our team project 2. It was a very smooth and enjoyable environment for brainstorming because there weren't many constraints other than time limits, and all our group mates were very open and supportive of the ideas we brought to the table. After gathering all the ideas, I had a hard time selecting only three of them because every idea sounded exciting. It was a pleasure to see all these interesting ideas, making me look forward to our next project!
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/0bb3c259-96d4-46ad-9857-b2f92f970533)
+
+
+Also, we had a chance to listen Adrian Freed's(http://www.adrianfreed.com/, Research Director of UC Berkeley's Center for New Music and Audio Technologies) lecture. He showed many examples of electrical textiles could be used in wearable devices. It was so interesting!
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e4c1ff83-310c-4d81-b24f-0c7ba1e64747)
+
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/715694c6-35a6-459f-a162-0d099e3b0c8b)
+
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/00c7a1a1-9c2f-435a-b532-bb3b2334a52a)
+
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/dd72db09-708f-4de2-94d4-2b90a3e6f2d9)
+
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/aaf0e047-587d-428b-bfc8-0e7a44bcea14)
+
+
+
+I assisted my classmates during the class based on my understanding of Arduino from my past experiences. I helped with tasks like uploading code to the microcontroller and understanding the polarity of the LED/.... I hope to have more opportunities to help my classmates as time goes on. During the brainstorming session, I contributed numerous interesting ideas. Additionally, I made sure to listen carefully to others' ideas and incorporate my own to make them clearer and more feasible.
+
+
 # [Week of 09/21/2023] Proton2 #1
 
 We'll start to play with proton! 
