@@ -1,3 +1,26 @@
+# [Week of 10/12/2023] Proton2 #4
+
+We devided task for working seperately. 
+
+- Electrical Connection Group
+- Group for connecting multiple photons to make them work
+- Coding Group
+- Group researching the mechanics of flowers
+
+I belong to the group researching the mechanics of flowers, so I discussed the design process with Nancy before she started 3D modeling. Nancy thought it would be more convenient for her to do the modeling on her own, so I started drawing to prepare for laser cutting the wearable structure later.
+
+
+Previously, I saw some friends cutting a mesh pattern and asked Kirk about it. He informed me that I could obtain the desired pattern file by searching for 'hinge pattern laser cutting.'
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8df7561e-8ca4-4145-a245-0c8a03a80641)
+
+
+I have completed the sketch below. I will need to make some modifications after measuring the wearable device.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/dbd47bbf-c697-44fc-aaa2-bf9bf6797aff)
+
+
+
 # [Week of 10/05/2023] Proton2 #3
 🪷TDF Mindful Meditation Bloom 
 Project Overview
