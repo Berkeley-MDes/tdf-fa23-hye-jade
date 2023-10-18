@@ -1,3 +1,42 @@
+# [Week of 10/17/2023] Proton2 #5
+
+Wristband
+
+🤖Mechanical
+A simple wristband can be done through laser cutting plywood and bend it in shape: living hinge template
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e3f705c8-ee76-419c-8ec2-d5925dc240b6)
+
+(initial reference image)
+
+I started drawing to prepare for laser cutting the wearable structure. Previously, I looked up the reference by searching for 'hinge pattern laser cutting.'
+
+
+For the production of the bracelet, considerations had to be made for the appropriate length on the wrist, the thickness of the hinge pattern lines, the incorporation of a vibration sensor, and the method of connection. 
+
+First, considering that the material was wood, we tested the thickness of the hinge pattern to ensure it wouldn't break. After making several sketches with slight variations and printing them multiple times, we found the right thickness that wouldn't break and would bend well to match the wrist's thickness. The overall length of the wristband was initially too long in the first attempt and required adjustments.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8e7c8c9d-26b3-41d1-bfb0-ec6e76e5760f)
+
+(Broken part)
+
+During laser cutting, it was important to set the intensity correctly to ensure clean cutting in one go. Even when considering the material thickness, there were times when it was necessary to overlap with the existing cutting line and cut it again for proper results.
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/43e7502b-8505-40fe-8f88-c1a14aef415b)
+
+(Iterations)
+
+Initially, we planned to connect the parts by fitting them into holes, but due to the wood's flexibility, it was not feasible. Therefore, after discussions with team members, we decided to use Velcro for the connection.
+
+(To be continued… We didn’t applied it yet)
+
+![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/cca388a0-95be-4bf9-a2cc-31a2849255f3)
+
+(Final one)
+
+
+
+
 # [Week of 10/12/2023] Proton2 #4
 
 We devided task for working seperately. 
