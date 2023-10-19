@@ -34,8 +34,42 @@ Initially, we planned to connect the parts by fitting them into holes, but due t
 
 (Final one)
 
+For the machanical flower part, we cut the flower petals and stacked them together.
+
+![fetal](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/0e7c8dd7-0bd6-4d3a-baf7-93fbd6e219e7)
+
+And we tried to build the basic frame for fetal connecting, but it was really hard to put them together since it is not a flexibel material.
+
+![yuhe working on frame](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6ce2601e-f583-475e-b930-9ffde4163e76)
+
+![working for frame](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4a2968d5-8eb8-463a-aa1e-60dc6044ccbf)
+
+Also we had to make the right size for servo motore to fit in, we printed again for the second trial.
+After few brokes, we succeed to stick together with super glue at the end.
+![fetal frame_2](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/86bfba00-cb71-4bf0-bdc1-49954471aeb3)
 
 
+Now, we had to connect the fetal. First, we tried to use the bended wire for the ring, but it wasn't really working  
+![trial1_fetal](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/7ce0ed99-ad0f-4875-9b56-e184cce3bbed)
+
+So We got a cable tie for that, and it worked like this.
+
+
+
+https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/858c6d55-d7d0-4482-ad70-651e850349eb
+
+We had a power issue that the fetal can't move only with servo motor's power, so we had to maually move with it.
+
+(This week reflection)
+
+Each of us remained faithful to our roles and performed our assigned tasks exceptionally well. Despite facing challenging tasks, we frequently sought guidance from instructors and persevered until we solved difficult problems. Observing this, I found a lot of motivation for myself as well. 
+However, it was a bit sad that due to the busyness of dividing and conquering our tasks, we didn't have many opportunities to come together as a team. The lack of time for collective discussions made it feel more like individual contributions rather than true teamwork. In the future, I hope we can have more time and opportunities for the team to work together.
+
+
+ Although we divided the team to work on tasks, some team members preferred working alone, and in trying to accommodate these preferences, I believe I struggled to find my role effectively. As a member of the mechanical parts team, I participated in the research stage of designing the mechanism, conceptualizing it, making decisions, and contributing to modeling and frame building. However, I felt that there was limited satisfaction in solving challenging problems on my own.
+
+ In the future, I've learned the lesson that when working with a larger team, we should set ambitious goals or tasks that involve more challenges, or we should allocate roles more effectively during the decision-making phase.
+ 
 
 # [Week of 10/12/2023] Proton2 #4
 
@@ -59,14 +93,19 @@ I have completed the sketch below. I will need to make some modifications after 
 ![image](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/dbd47bbf-c697-44fc-aaa2-bf9bf6797aff)
 
 
+We did some initial movement test here from the reference before, and it worked well!
+
+https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8abcfc70-a3e6-44c5-bddc-136c17c87dc4
+
+
 
 # [Week of 10/05/2023] Proton2 #3
-🪷TDF Mindful Meditation Bloom 
-Project Overview
+TDF Mindful Meditation Bloom 
+
+(Project Overview)
 Meditation Bloom aims to amalgamate technology, aesthetic, and mindfulness, crafting a transformative physical and mental experience. It is a meditation-assistive device that provides a multi-sensory experience by integrating visual, tactile, and audial cues, thus enhancing the user's focus and immersion during the meditation process.
 
-
-Components:
+(Components)
 1. Meditation Flower:
 Function: 
 Opens and closes in synchronization with the prescribed meditation breathing pattern.
@@ -100,30 +139,31 @@ The user initiates a meditation session via a mobile application, selecting or c
 The Meditation Flower responds by opening and closing in tandem with the selected breathing pattern, while simultaneously illuminating to establish a serene environment.
 The wristband vibrates in sync with the pattern, providing tactile cues to assist the user in maintaining the prescribed breathing rhythm.
 
-Objectives
+(Objectives)
 Enhance the user’s meditation experience through multi-sensory engagement.
 Provide a visually pleasing apparatus that doubles as a decorative piece when not in use.
 Facilitate consistent and focused meditation through synchronized cues.
 
-Key Features
-Breathing Flower:
+(Key Features)
+1. Breathing Flower:
 The Meditation Flower is able to close and open up based on selected meditation patterns with a built-in lighting that is capable of changing colors according to the user’s selection.
 
-Vibrating Wristband:
+2. Vibrating Wristband:
 The wristband vibrates subtly on the user’s wristband according to the selected meditation patterns.
 
-Synchronization:
+3. Synchronization:
 Ensures that visual and tactile cues are precisely synchronized with the selected meditation pattern.
 
-User Customization:
+4. User Customization:
 Allows the user to select and customize breathing patterns, vibration intensity, and light intensity.
 
-App Integration: 
+5. App Integration: 
 (Might now able to realize in this round of iteration, but is open up to further development)
 Enables the user to control, customize, and track their meditation sessions via a dedicated app.
 
-Design Specification
-Technological Challenges:
+6. Design Specification
+
+(Technological Challenges):
 A smooth mechanism for the Meditation Bloom to open and close up.
 Robust and quiet motor for the Meditation Bloom to ensure non-disruptive drive of the mechanical part.
 A reliable communication protocol between the Meditation Flower, wristband, and app, ensuring synchronized operation.
@@ -133,7 +173,6 @@ Energy-efficient LED technology for the Meditation Flower, ensuring sustainable 
 Mechanical Flower
 Brainstorming of forms
 2D Flower
-
 
 3D Flower
 
@@ -151,7 +190,7 @@ Circuits & Code
 
 In terms of the coding, we plan to rely on the rotating servo motor to control the mechanical parts to mimic the flower opening and closing.
 
-Wristband
+(Wristband)
 
 🦾Mechanical
 A simple wristband can be done through laser cutting plywood and bend it in shape:
@@ -164,7 +203,6 @@ The circuit (and code) of the wristband is quite straightforward: by connecting 
 
 
 We did a little test of the vibrator motor and it worked like this:
-
 
 
 
