@@ -1,5 +1,58 @@
 # [Week of 12/8/2023] Showcase and Closing 
 
+It was the last week of the TDF class! I'm really grateful for all the help I received from professors and classmates throughout this time. While I had to stay at my spot to explain my project during the showcase, I also had the chance to see what other friends had done, and it was truly impressive to see all the amazing work and their efforts. How did they come up with such product ideas? There were friends with outstanding designs, those who showcased exceptional technical understanding, and others with remarkable completeness in their projects. There was so much to see, and it was a day when our cohort truly shone with pride.
+
+It seems like I really need to improve my storytelling and presentation skills. I received a lot of valuable feedback from external experts and instructors, which was great. It was also beneficial to gain clarity on the direction in which to further develop my projects in the future.
+
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/a6d67575-c4a6-4c54-bd9f-89889af45421">
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/0c0a7b67-447f-42f3-825c-4baa83573636">
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/7c09706e-b8d0-47ee-8c25-79a400c096d4">
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4f5759f0-3473-4e07-bc87-4b3d0b86d630">
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/1ca40a9e-53d0-41bd-9ff9-97cbb5a186bc">
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6cd8745d-ea35-4b10-b942-2ec66aa4f784">
+
+<img width="1000" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/48a14bde-ef16-4699-8c67-d588960cf5fa">
+
+
+About my project, 
+
+It was really fulfilling to display my work at my first showcase in Berkeley. I received a lot of great feedback from our instructors and external experts. A few things particularly struck me:
+
+- People did not immediately understand my work. When I explained my ant problem (when the story was presented), people understood much better and found my work more appealing. I learned that it's important to clearly present the story and context first, especially since it's an art installation and not a piece with special functions.
+- Jeff gave me valuable feedback after hearing how I manually numbered each LED strip and inputted these numbers in the desired sequence. His suggestion was to first write the code according to a sequence that is convenient for me, and then at the very end, map these rules to the actual LED numbers. This way, I wouldn't have to search for complex LED numbers in every line of the sequence, and I would only have to go through the mapping process once at the end. It was a significant insight.
+- Among the feedback I received from Floor was that the current LED panel itself is not very user-friendly. The light was too bright, causing discomfort to the viewers and also not aesthetically pleasing. When she placed a blank A4 paper in front of it, the artwork became much more beautiful and easier to view. I realized a great improvement point - I should add thin paper or fabric in front of the panel.
+- My roommate, who also experienced the ant problem with me, really loved the piece, which made me proud. Seeing how we transformed our shared negative problem into this artwork, and sharing a laugh about it, made me feel that this whole process could be healing.
+
+These experiences taught me a lot about the importance of context, efficient coding, audience-friendly design, and the therapeutic power of art.
+
+**Conclusion**
+
+There were many challenges throughout the project, from the initial design to the final preparation for the exhibition, and although there were several failures along the way, I was ultimately able to successfully demonstrate the piece I wanted at the showcase. I remember being happy just to light up one LED at the beginning, and now I'm pleased to have been able to present a significant work.
+
+One thing I did well was to set a reasonable scope within a short time and achieve my goal. I wanted to improve my skills in coding along with using a microcontroller, as I had no prior experience with it in the previous projects. I'm proud of myself for achieving as much as I aimed for.
+
+However, I also had some regrets, which became apparent after receiving feedback. First, controlling a much larger number of LEDs would have been more meaningful for an art installation. To do this, I need to learn how to control the sequences more effectively. Also, I regret not paying more attention to the aesthetic aspect of the project. As advised during the feedback session, as a next step, I plan to consider ways to make the light look more beautiful.
+
+
+
+**Acknowledgement**
+
+I am truly grateful for the help I received from many people throughout the semester. 
+
+When I was struggling with my final project, I appreciated that Roshan and Matthew took their time to look into my problem and tried to help. Rachel and Baurzhan also took a look at my problem and tried to help, suggesting that I might be able to apply a solution they had previously used to solve a similar issue. Ankur provided me with the opportunity to glimpse a different direction in the assignment by explaining his own project.
+
+I learned how to use Rhino and the equipment in the makerspace from Cody, and TJ and Jeff always provided helpful answers whenever I had difficult questions. Sudhu would throw thought-provoking questions at the end of each session with our classmates, and shared insights from his sound design background, which were very helpful. It was an honor to listen to the lectures from several guest speakers, some of whom I would have had difficulty meeting otherwise. 
+ 
+Although it was a fast-paced course and I might not have kept up with the supposed amount of learning, I am thankful for the constant encouragement and patience that allowed me to pursue learning. I was happy to work with such wonderful people.
+
+
+**Final Video Link:** https://youtu.be/KI0BD5c5UBU 
 
 
 
@@ -11,11 +64,13 @@ In addition to TDF, I had to prepare for the exhibition of other projects as wel
 
 
 **[6. Constantly Checking Function with Ultrasonic Sensor]**
+
 Once activated, the LED sequence I saved continued without stopping. Since ants return to their place when food is not there, I wanted the sequence to stop the moment the sensor no longer detected an object. I had to modify the code to run the measureDistance function in real-time even during the sequence operation.
 
 <img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/00f28384-f85a-4635-a122-294d0554042f">
 
 **[7. Imitating Ant Movement]**
+
 Since I mimic the ants move, I thought the lights should briefly turn on and then "the same lights should turn off", followed by the next set of lights to give the impression of moving ants. I added a code to turn off the lights with clearLEDs after giving a delay of 0.5 seconds. To make the movement appear more natural, I adjusted the delay time and the number of moving lights several times. 
 
 <img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/98db581c-b792-4569-947b-0a5d89a9760f">
@@ -25,17 +80,20 @@ When nearing the location of the sensor detecting food, I changed the LED color 
 <img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/87bd4686-b2d8-459a-8854-2beb7a53c4a8">
 
 **[8. Expressing Ant Movement in Sequences]**
+
 Initially, I tried many times to move according to certain logic I found. However, it felt unnatural since the LED strip was not laid out in one direction and the movement of ants couldn't be logically simulated. So, I decided to manually design the sequence. I created an array by listing the LED numbers I wanted to light up simultaneously in one line and inserting it into the code. It was a time-consuming process. I inserted -1 at the end of each row to distinguish the rows.
 
 <img width="597" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/c33b1773-3f22-42bc-bad5-372966c0e99b">
 
 **[9. Creating Functions for LEDs That Should Always Be On]**
+
 To represent the ant's environment, I designed and displayed hills and land. Even though the color changed to yellow due to the ants' movement, I kept the desired color through the settings of setBrownLEDs(); and setGreenLEDs(); which reset the color each time the sequence ran.
 
 <img width="620" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e93381c8-8817-48b0-8d84-b862f29cc601">
 
 
 **[10. Need for Appropriate Voltage Supply]**
+
 While working, I noticed some strange behaviors, such as the code not working properly at times, or the color of the lights being different each time or changing when the wires were moved, showing a very unstable state. I thought it was a wiring issue and tried soldering, but the problem persisted. It was resolved after purchasing and using a 5V power supply. Looking up the Neopixel LED specs, I found that it required a 5V component. Although it said at least 10A was needed, fortunately, it worked well even with 2A.
 
 (The difference between supplying 3V and 5V)
@@ -49,9 +107,11 @@ While working, I noticed some strange behaviors, such as the code not working pr
 **[Speculations]**
 
 **How the technologies you explored will impact the design of human experiences**
+
 Actually, after coming to the United States, I had to spend several months feeling powerless due to an ant problem I experienced for the first time in my life. It seemed like a trivial issue, but the slow progress in resolving it gradually drained my energy and made me think a lot. However, I chose not to view this problem solely negatively. Instead, I saw it as an opportunity for learning and inspiration, and I managed to transform this into a positive experience by drawing inspiration from it and progressing with my project. Similarly, by using technology to express art, I believe we can transform negative human experiences into art and beauty, positively impacting human experience. 
 
 **How the technologies you explored will impact engineering and how we build.**
+
 The client technologies I explored will revolutionize the design of human experiences by transforming even mundane or negative aspects of life into sources of inspiration and art. For instance, the use of microcontrollers and sensors, as seen in my project, can give rise to interactive installations that not only capture but also elevate everyday experiences. This could lead to a new era where technology enables us to convert our challenges and struggles into creative expressions, offering a unique blend of art, empathy, and technology. By doing so, we can turn even the most trivial or troublesome moments into opportunities for beauty and learning, enhancing our overall experience as humans.
 
 
