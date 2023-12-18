@@ -6,6 +6,61 @@
 
 # [Week of 11/23/2023] Exploration and Testing
 
+Ants communicate through pheromones, summon their family members, and collectively create paths and I find their method of communication and movement fascinating. Inspired by this, I created a visual installation that mimics the movement of an ant colony. When an object(food) is detected, the nearby LEDs will react first, and as it approaches the 'home',
+more LEDs will respond, eventually creating a path.
+
+The prototype is based on the Particle Photon 2. It functions such that when an object is detected by the ultrasonic sensor, a visual display output appears on the NeoPixel. This visual installation piece is distinguished by a movement that resembles ants gathering around food, mimicking how they call other members of their colony.
+
+The Visual Installation Domain offers untapped potential in human experiences, where the integration of technologies like interactive sensors can transform public spaces and personal environments, fostering deeper emotional connections and storytelling in ways previously unimagined.
+
+
+In our previous group project, I was responsible for the fabrication and mechanical parts, so I didn't have the opportunity to learn about exploration and electronic works through a microcontroller Photon 2. Also, my task involves coding to control LEDs in a desired sequence, which can be quite challenging, so I decided to learn and dig into the coding part and set it at the level of Axolotl. This time, I started learning the basics of photon, and my goal is to handle all the processes by myself, from conceptualizing the project to presenting it at a showcase.
+
+
+**This week challenges:**
+
+**[1. Connecting Photon2]**
+Since I used my Photon in a group project, I had some difficulty disconnecting it from another device and reconnecting it to my computer. I had to switch laptops midway, so I had to redo network settings and program installations from scratch. Initially, I was not very familiar with the use of Berkeley IoT or the differences from Arduino, but setting up the Photon from the beginning alone helped me review and learn more about Photon setup.
+
+<img width="467" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b3c762fc-d589-4bb0-a44d-612b237c4650">
+
+
+**[2. Solving Flash Error]**
+I kept encountering an error like the one shown in the photo below when I flashed the device. 
+I alternated between using Particle Web IDE and Visual Studio Code, and sought help from friends and instructors. 
+<img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b47fb630-46b3-4c2d-9e7c-bd891b553490">
+
+The solutions that helped me overcome several hurdles included:
+- Specifying my device and Photon 2, and the IDE version.
+- Since SPI communication was used, it was necessary to set the signal input to MOSI, not s0.
+- When the device couldn't be found, I had to press both Mode and Reset, release reset, and continue pressing Mode until it turned blue.
+
+<img width="335" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/1eca7b10-b786-43d8-88d1-7c3e523e4da1">
+
+<img width="617" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/2ebdda08-c811-4622-8355-99106aa34f70">
+
+**[3. Using Neopixel Library]**
+Since I bought the parts from Amazon, I was unsure if I needed to use the Neopixel library. Initially, due to flash errors, I thought it was a library issue. Matthew advised me to look up product reviews. On review, I found that people had successfully operated it using the Neopixel and FastLED libraries. So, I installed the neopixel library in VSC and used it. It took several attempts to successfully light the LED, but I managed to do it.
+
+<img width="502" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e9f4ed37-010c-454b-94f6-0d8d5380fcd9">
+
+**[4. Figuring Out the LED Strip Numbers]**
+Using Neopixel, when coding, I needed to know each LED's number and insert the corresponding number in the code. Initially, it was an exploration to understand this rule. By running a code that lights up LEDs one by one starting from number 1, I figured out that the LED number starts from 0 and the strip is arranged in a zigzag pattern.
+
+<img width="598" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/6b0f9815-c01a-497c-9139-da5bea5c809d">
+
+
+**[5. Using Ultrasonic Sensor to Light Up LEDs When an Object is Detected]**
+I used the measureDistance function so that if an object was detected within 5cm, the runSequence function would activate the stored sequence, and if not, the clearLEDs function would turn off all LEDs.
+
+<img width="598" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bf821bbb-46ac-41db-874e-7b7b418dc2c5">
+
+---
+
+This week was all about doing some preliminary testing for the planned work. Since it was my first time working with the Photon2 microcontroller from scratch, I needed help with things like machine disconnects. Friends like Baurzhan, Matthew, Rachel, Roshan, and others were always there to lend a hand whenever I faced difficulties. We tackled the same errors together and they even offered advice on installing VSC, which was a big help.
+
+Since this assignment is something I'm doing on my own, time management and task resolution were more challenging than ever, but I still feel like I accomplished the right amount this week. The process of trying various things, experiencing failures, and conducting experiments was enjoyable.
+
 
 
 
