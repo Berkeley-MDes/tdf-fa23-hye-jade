@@ -1,7 +1,61 @@
 # [Week of 12/8/2023] Showcase and Closing 
 
 
+
+
 # [Week of 11/30/2023] Building and Making
+
+This week was incredibly busy. It was the week just before the showcase, so I had to wrap up all the TDF assignments. Despite the sense of urgency, all friends were very supportive and we helped each other out. We also made good use of the resources within the studio, which makes me feel grateful.
+
+In addition to TDF, I had to prepare for the exhibition of other projects as well, which added some stress. However, I managed our time and resources well, and I was able to successfully complete the showcase. One thing I found a bit disappointing was that I felt my presentation skills were lacking. I had some difficulty preparing to explain our project during the showcase.
+
+
+**[6. Constantly Checking Function with Ultrasonic Sensor]**
+Once activated, the LED sequence I saved continued without stopping. Since ants return to their place when food is not there, I wanted the sequence to stop the moment the sensor no longer detected an object. I had to modify the code to run the measureDistance function in real-time even during the sequence operation.
+
+<img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/00f28384-f85a-4635-a122-294d0554042f">
+
+**[7. Imitating Ant Movement]**
+Since I mimic the ants move, I thought the lights should briefly turn on and then "the same lights should turn off", followed by the next set of lights to give the impression of moving ants. I added a code to turn off the lights with clearLEDs after giving a delay of 0.5 seconds. To make the movement appear more natural, I adjusted the delay time and the number of moving lights several times. 
+
+<img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/98db581c-b792-4569-947b-0a5d89a9760f">
+
+When nearing the location of the sensor detecting food, I changed the LED color from yellow to red to signify ants becoming more sensitive and actively communicating during a sugar rush or with other ants.
+
+<img width="621" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/87bd4686-b2d8-459a-8854-2beb7a53c4a8">
+
+**[8. Expressing Ant Movement in Sequences]**
+Initially, I tried many times to move according to certain logic I found. However, it felt unnatural since the LED strip was not laid out in one direction and the movement of ants couldn't be logically simulated. So, I decided to manually design the sequence. I created an array by listing the LED numbers I wanted to light up simultaneously in one line and inserting it into the code. It was a time-consuming process. I inserted -1 at the end of each row to distinguish the rows.
+
+<img width="597" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/c33b1773-3f22-42bc-bad5-372966c0e99b">
+
+**[9. Creating Functions for LEDs That Should Always Be On]**
+To represent the ant's environment, I designed and displayed hills and land. Even though the color changed to yellow due to the ants' movement, I kept the desired color through the settings of setBrownLEDs(); and setGreenLEDs(); which reset the color each time the sequence ran.
+
+<img width="620" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e93381c8-8817-48b0-8d84-b862f29cc601">
+
+
+**[10. Need for Appropriate Voltage Supply]**
+While working, I noticed some strange behaviors, such as the code not working properly at times, or the color of the lights being different each time or changing when the wires were moved, showing a very unstable state. I thought it was a wiring issue and tried soldering, but the problem persisted. It was resolved after purchasing and using a 5V power supply. Looking up the Neopixel LED specs, I found that it required a 5V component. Although it said at least 10A was needed, fortunately, it worked well even with 2A.
+
+(The difference between supplying 3V and 5V)
+<img width="558" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/a2e501cb-0289-4e22-aac9-9ce2997050cb">
+
+
+(Sudhu’s tip about setting proper Amper)
+<img width="547" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/8bb5ea5a-c706-40b2-a2d5-4bb058d42b6b">
+
+
+**[Speculations]**
+
+**How the technologies you explored will impact the design of human experiences**
+Actually, after coming to the United States, I had to spend several months feeling powerless due to an ant problem I experienced for the first time in my life. It seemed like a trivial issue, but the slow progress in resolving it gradually drained my energy and made me think a lot. However, I chose not to view this problem solely negatively. Instead, I saw it as an opportunity for learning and inspiration, and I managed to transform this into a positive experience by drawing inspiration from it and progressing with my project. Similarly, by using technology to express art, I believe we can transform negative human experiences into art and beauty, positively impacting human experience. 
+
+**How the technologies you explored will impact engineering and how we build.**
+The client technologies I explored will revolutionize the design of human experiences by transforming even mundane or negative aspects of life into sources of inspiration and art. For instance, the use of microcontrollers and sensors, as seen in my project, can give rise to interactive installations that not only capture but also elevate everyday experiences. This could lead to a new era where technology enables us to convert our challenges and struggles into creative expressions, offering a unique blend of art, empathy, and technology. By doing so, we can turn even the most trivial or troublesome moments into opportunities for beauty and learning, enhancing our overall experience as humans.
+
+
+
 
 
 # [Week of 11/23/2023] Exploration and Testing
