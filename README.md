@@ -1,17 +1,30 @@
 # [Week of 12/8/2023] Showcase and Closing 
 
 
-
 # [Week of 11/30/2023] Building and Making
 
 
 # [Week of 11/23/2023] Exploration and Testing
 
 
+
+
 # [Week of 11/16/2023] Project Planning
+
+I had the opportunity to see the ideas that other friends had come up with all at once. Some friends wanted to delve deeper into what we had done in Project 2, while others were looking to acquire new knowledge in completely new topics. There were about six ideas that seemed interesting to me, and I thought my friends were excellent at brainstorming. However, I think I'll work on the project alone to gain more learning opportunities.
+
+This week was dedicated to thinking about and planning the final term project in detail. I was considering various topics and decided to choose the recent ant problem I encountered, aiming to turn it into a positive experience and represent it using LEDs. Personally, I felt proud because it seemed like a brilliant idea that I could work on with enthusiasm.
+
+<img width="1348" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bb3084fd-d66b-4e41-88f8-9fec5c6cf946">
+
+
 
 
 # [Week of 11/9/2023] LLM #2
+
+This week was dedicated to delving deep into LLM (Large Language Models). I am keenly interested in equitable design, so I chose that topic. I watched videos created by other friends, and they all did an excellent job summarizing their insights and challenges. Sudhu's feedback also prompted me to think more about the ethical concerns surrounding AI and LLM. It was a valuable opportunity for reflection.
+
+I felt a sense of accomplishment as I explored and experimented with various aspects of the topic I was interested in. It allowed me to broaden my understanding of LLM. I also found the report archiving aspect quite appealing. It would have been even better if I had a little more time to work on the assignments.
 
 I am interested in equitable design, I explored this field with the aim of applying LLM to help small business owners easily manage their store data and utilize it for customer management.
 I thought that LLM could be helpful in the form of a chatbot for customers to explore information about the store, and it could also assist the store's owner in managing and recalling their store's data.
