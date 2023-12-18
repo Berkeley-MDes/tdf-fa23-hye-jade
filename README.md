@@ -47,23 +47,23 @@ LightOn's Paradigm offers foundation models with claimed capabilities that excee
 
 There are many practical applications for LLMs.
 
-Copywriting
+**Copywriting**
 
 Apart from GPT-3 and ChatGPT, Claude, Llama 2, Cohere Command, and Jurassiccan write original copy. AI21 Wordspice suggests changes to original sentences to improve style and voice.
 
-Knowledge base answering
+**Knowledge base answering**
 
 Often referred to as knowledge-intensive natural language processing (KI-NLP), the technique refers to LLMs that can answer specific questions from information help in digital archives. An example is the ability of AI21 Studio playground to answer general knowledge questions.
 
-Text classification
+**Text classification**
 
 Using clustering, LLMs can classify text with similar meanings or sentiments. Uses include measuring customer sentiment, determining the relationship between texts, and document search.
 
-Code generation
+**Code generation**
 
 LLM are proficient in code generation from natural language prompts. Examples include Amazon CodeWhisperer and Open AI's codex used in GitHub Copilot, which can code in Python, JavaScript, Ruby and several other programming languages. Other coding applications include creating SQL queries, writing shell commands and website design.
 
-Text generation
+**Text generation**
 
 Similar to code generation, text generation can complete incomplete sentences, write product documentation or, like Alexa Create, write a short children's story.
 
@@ -77,10 +77,17 @@ Once trained, LLMs can be readily adapted to perform multiple tasks using relati
 
 Three common learning models exist:
 
-Zero-shot learning; Base LLMs can respond to a broad range of requests without explicit training, often through prompts, although answer accuracy varies.
-Few-shot learning: By providing a few relevant training examples, base model performance significantly improves in that specific area.
-Fine-tuning: This is an extension of few-shot learning in that data scientists train a base model to adjust its parameters with additional data relevant to the specific application.
+- Zero-shot learning; Base LLMs can respond to a broad range of requests without explicit training, often through prompts, although answer accuracy varies.
 
+- Few-shot learning: By providing a few relevant training examples, base model performance significantly improves in that specific area.
+
+- Fine-tuning: This is an extension of few-shot learning in that data scientists train a base model to adjust its parameters with additional data relevant to the specific application.
+
+
+**This week reflection**
+When I couldn't attend class due to personal reasons, I asked for help from Yunting and Katherine and requested class recordings from the professors. I was truly grateful for the supportive attitude of these friends who understood my situation and helped me stay on track with the class content.
+
+Although I couldn't participate in the class, I carefully reviewed the recordings and studied on my own. I also researched information about LLM and organized it on GitHub. Since I had experience participating in LLM interface design and dataset refinement, I was able to get involved with enthusiasm.
 
 
 # [Week of 10/26/2023] Demo week
