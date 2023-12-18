@@ -17,6 +17,33 @@
 
 # [Week of 11/2/2023] LLM #1
 
+I previously worked as a product manager at a major Korean search engine, where I had the experience of creating and launching an LLM model. While working on design and product aspects, I created review guides for fine-tuning and designed interfaces. However, I didn't delve deeply into the operating principles or technical aspects of LLM. It's been great to have the opportunity to study these in detail through this experience.
+
+I reviewed the video of Peter lecture on Youtube. It was truly insightful! 
+
+Here are some notes: 
+
+*Large language models (LLM)* are very large deep learning models that are pre-trained on vast amounts of data. The underlying transformer is a set of neural networks that consist of an encoder and a decoder with self-attention capabilities. The encoder and decoder extract meanings from a sequence of text and understand the relationships between words and phrases in it.
+
+Transformer LLMs are capable of unsupervised training, although a more precise explanation is that transformers perform self-learning. It is through this process that transformers learn to understand basic grammar, languages, and knowledge.
+
+Unlike earlier recurrent neural networks (RNN) that sequentially process inputs, transformers process entire sequences in parallel. This allows the data scientists to use GPUs for training transformer-based LLMs, significantly reducing the training time.
+
+*Why are large language models important?*
+
+Large language models are incredibly flexible. One model can perform completely different tasks such as answering questions, summarizing documents, translating languages and completing sentences. LLMs have the potential to disrupt content creation and the way people use search engines and virtual assistants.
+
+While not perfect, LLMs are demonstrating a remarkable ability to make predictions based on a relatively small number of prompts or inputs. LLMs can be used for generative AI (artificial intelligence) to produce content based on input prompts in human language.
+
+LLMs are big, very big. They can consider billions of parameters and have many possible uses. Here are some examples:
+
+Open AI's GPT-3 model has 175 billion parameters. Its cousin, ChatGPT, can identify patterns from data and generate natural and readable output. While we don’t know the size of Claude 2, it can take inputs up to 100K tokens in each prompt, which means it can work over hundreds of pages of technical documentation or even an entire book.
+AI21 Labs’ Jurassic-1 model has 178 billion parameters and a token vocabulary of 250,000-word parts and similar conversational capabilities.
+Cohere’s Command model has similar capabilities and can work in more than 100 different languages.
+LightOn's Paradigm offers foundation models with claimed capabilities that exceed those of GPT-3. All these LLMs come with APIs that allow developers to create unique generative AI applications.
+
+
+
 
 
 # [Week of 10/26/2023] Demo week
@@ -26,9 +53,23 @@ I think I had a decent understanding of the parts I wasn't directly responsible 
 
 ![IMG_9530](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/c276f5c0-b9d7-4307-90a4-fe53fdab37ed)
 
-![Uploading IMG_9531.PNG…]()
+![IMG_9531](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/42d6cd4d-8304-4ead-aa3e-fb7e138c1b2f)
 
-![Uploading IMG_9532.PNG…]()
+![IMG_9532](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/1c410f31-a917-46e8-bfd9-325b0b384f22)
+
+I am personally also studying meditation. Since mental health is emerging as an extremely important issue for modern people, I believe that our project can play an essential role for contemporary society. Wouldn’t it be amazing to end a busy day by looking at this flower and steadying your breath?
+
+If we could further develop our project from an engineering perspective, we might be able to (1) make the flower move more smoothly for a better experience, (2) change the graphics to be more immersive for meditation, and possibly add narration or music, (3) make the wearable more ergonomic, and (4) improve the experience to be more integrated with the actual body by using real breathing as input for intervals.
+
+Considering the integration with AI, since the breathing intervals vary from person to person, we could potentially learn the individual’s breathing patterns and adjust the content accordingly. Alternatively, we could provide meditation content suitable for the user's current situation through text input. Furthermore, through image generation, we might be able to project various images onto the flower that match the ambiance.
+
+Concluding this report on the project, I can confidently say that the journey has been both challenging and enlightening. Inspired initially by my admiration for Studio Drift, this project turned into a collaborative effort, bringing together many talented friends to implement various technical aspects, which was really satisfying for me.
+
+Throughout the project, we faced several challenges in role distribution and communication among team members. However, the open discussions we had post-project, where we shared our feelings and provided feedback on our team dynamics, proved to be incredibly beneficial. These reflections have taught me valuable lessons on the importance of teamwork and communication in achieving our goals. Reflecting on the dynamics of our team, it's clear that while individual contributions were valuable, a more integrated approach to teamwork would have greatly benefited our project. This realization is crucial for my future work, where fostering a collaborative environment, clear role set, and transparent communication can enhance both the process and the outcome.
+
+The focus of our project was to create a wristband that was not only functional but also aesthetically pleasing, integrating elements with a mechanical flower. This blend of technology and design presented numerous learning opportunities, especially through overcoming material flexibility issues, power limitations, and finding the right design specifications. Through the iterative design process, from conceptualization to the final product, I learned the importance of persistence and adaptability in the field of technology design.
+
+Looking ahead, I believe our project holds immense potential, particularly in the realms of mental health and meditation. My ambition is to further develop the project to make the flower move more smoothly, enhance the graphics for meditation, and improve the ergonomic design of the wearable. Integrating AI to personalize the experience based on individual breathing patterns or to provide context-specific meditation content could significantly enhance how we interact with technology for mental wellness.
 
 
 # [Week of 10/17/2023] Proton2 #5
