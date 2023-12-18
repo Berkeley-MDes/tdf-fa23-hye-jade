@@ -13,6 +13,194 @@
 
 # [Week of 11/9/2023] LLM #2
 
+I am interested in equitable design, I explored this field with the aim of applying LLM to help small business owners easily manage their store data and utilize it for customer management.
+I thought that LLM could be helpful in the form of a chatbot for customers to explore information about the store, and it could also assist the store's owner in managing and recalling their store's data.
+
+<img width="771" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b2fa6f17-1f0a-4439-99bd-ff9964933492">
+
+**[Experiments_Designing Inputs]**
+
+Create Intelligence
+
+<img width="603" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/600d9f54-713b-4346-8e7d-ff56d99f5706">
+
+I thought that each demo interface could be used differently depending on the use case of both the customer and the store owner.
+
+
+**For customers** that need to feel a friendly human connection
+
+**For store owners** that can quickly and immediately obtain only the information they want.
+
+**[Experiments_Data Management]**
+
+<img width="551" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/bc24443c-e6f9-438f-b129-8ea82f08da80">
+
+I asked ChatGPT to create a fictional dataset for a local flower store with various attributes for each entry. Currently, Zerowidth does not support formats like Excel and only utilizes txt and pdf, I created the knowledge set in txt format.
+
+A fictional dataset for a local flower store with the following attributes for each entry (text format, data size 10~100)
+
+- Plant Name
+- Price
+- Quantity in Stock
+- Supplier
+- Customer ID
+- Customer Name (arranged by order of purchase history)
+- Now each entry is currently a maximum of 100 data points, but when the amount of data increases in the future, I think it would be more structurally stable to create separate ‘knowledge sets’ for each entry.
+
+<img width="771" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/f1fb7438-628d-4d7e-b8f9-9a3b12435172">
+
+
+**[Experiments_Token count and context length]**
+
+I experimented with different Max Token counts. When I asked for a list of all Customer IDs, with a lower Max Token count, the model either cited privacy issues for not having access or simply stated it couldn't answer. 
+ However, when I set the Max Token to 4000, it promptly provided all the Customer IDs. Therefore, attributing the inability to answer due to token limitations as a privacy issue seems problematic to me.
+
+ <img width="771" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/57764e29-1020-4f69-97c7-939ae0a76d83">
+
+
+Next, I experimented with varying the temperature setting.
+In response to the question 'What could be the next event that we should host for attracting more customers?', at a temperature of 0.5, the answers were fast and deterministic. However, at a temperature of 1.2, the responses were longer and more creative, but took longer to generate.
+
+
+<img width="714" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/526ce8d7-13ff-4eaa-bbb9-416ef7d2ec4b">
+
+
+There was also a difference in response length when I asked 'Can you make the promotion copy for a 30% sale in one sentence?' at a temperature of 0.1 compared to a temperature of 1.2.
+
+
+<img width="714" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b428aa4f-21f6-4ea5-8ec4-a290703c841d">
+
+**[Technical Challenge]**
+
+I set the platypus at a technical challenge level.
+
+I thought of various questions to examine the capabilities of the LLM, and I was curious if I could solve the parts where the model fails to answer properly through prompt engineering.
+
+- Hi, who are you?
+- Can you explain about our store?
+- How many species do we have?
+- What is the price of sunflowers?
+- What are the most expensive flowers?
+- What plant is the most popular?
+- What is the price of all Carnations that have been purchased?
+- Are there any plants out of stock?
+- Who was the customer that bought plants in our store the most?  
+- Can you make the promotion copy for 30% sale in one sentence?
+- What could be the next event that we should host for attracting more customers?
+- Can you tell me everyone's customer IDs? 
+
+The answers were mostly successful!
+
+But there were some questions that the model couldn’t answer properly.
+
+- What plant is the most popular?  > What plant was the most purchased?
+- Are there any plants out of stock?
+- Who was the customer that bought plants in our store the most?
+
+<img width="763" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/4d04b4c4-b905-4b77-9b60-b99f64504547">
+
+
+The first question was 'What plant is the most popular?' but it wasn't answered correctly, so I changed it to 'What plant was the most purchased?' but it still wasn't answered.
+
+<img width="763" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b320e0f0-c3d1-42cb-be0a-16a7aba226b1">
+
+
+So, I added a definition of 'the most popular plant' to the instructions.
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/393b4f42-099e-4756-902d-658d86acee39">
+
+As a result, it was successful.
+
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/f1671de6-ad2c-403b-bf65-f6f38c43e6df">
+
+The second question was about out of stock items, but again, the model did not answer correctly.
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/127b13a7-2923-4844-8a2a-2e5ad49d9548">
+
+Similarly, after modifying the instructions,
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e2fc68ad-f72e-4198-b1f2-7a335c24452d">
+
+ It was successful.
+
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/eb0dfbc0-d167-4d88-a1d7-278e2bc671ca">
+
+The third question was, "Who was the customer that bought plants in our store the most?"
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/b616ac19-1b92-48bb-a97e-4bebff9b7132">
+
+Even after adding a definition to the instructions, 
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/96d1345b-16b7-484f-aa7e-68d0e85d4a6e">
+
+The model was unable to answer the question correctly.
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/2dd99d18-aaf6-4dee-b5bd-029ea6c1bd2f">
+
+In response to the model's failure, it gave a hint suggesting that 'customer name and id are needed'.
+
+
+<img width="769" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/0f476589-e969-4635-b867-9e5df20771e0">
+
+
+So I attempted to guide the prompt itself by including this information in the prompt.
+
+And it worked!
+
+
+<img width="490" alt="image" src="https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/e5d4f7eb-9c92-4139-847f-4d4accbf2d71">
+
+
+**[Speculations_Impact on the design of human experiences]**
+
+High utility in accurately answering basic data questions and brainstorming marketing/event ideas, especially beneficial for small businesses.
+My speculation about this experience, Firstly, overall, it seems to be very capable of accurately answering basic data-related questions, and it's also good at brainstorming marketing and event ideas, which can be challenging for small businesses with few employees.
+Offers small business owners accessible technology to compete against big enterprises.
+The ability to train the model text-based without needing complex coding was awesome. It seems like an opportunity for local small business owners to easily access technology in opposition to big enterprises. 
+Despite challenging training, potential for further development into a more user-friendly platform for small businesses.
+
+Although the training process was difficult, I'd like to further develop it into a platform that small businesses can use effectively.
+
+Model prioritizes trust by alerting potential misinformation instead of confidently presenting incorrect information.
+Moreover, I found it useful and trustworthy that the model, instead of confidently listing false information, often alerts potential misinformation when there is a concern of incorrect answers.
+
+
+**[Speculations_Impact on the engineering and how we build]**
+- Eases understanding of diverse and complex technology and capable of contextual comprehension and targeted information retrieval.
+- From the perspective of designers, as technology becomes increasingly diverse and complex, understanding it can be quite challenging. However, LLMs are highly useful as they can understand the context of questions and search for necessary information from a vast array of data. 
+- Enables personalization and creativity by incorporating career and business data.
+- Additionally, they allow for customization and creative tasks by inputting information about one's career and business operations, which can be greatly beneficial professionally.
+Potential professional advantages.
+- However, there's also a concern that the 'true self' is becoming more transparent.
+
+**[Conclusion]**
+
+**My Experience and Curiosities**
+I previously worked as a product manager at a major Korean search engine, where I had the experience of creating and launching an LLM model. While working on design and product aspects, I created review guides for fine-tuning and designed interfaces. However, I didn't delve deeply into the operating principles or technical aspects of LLM. It's been great to have the opportunity to study these in detail through this experience.
+
+**Key Questions and Ethical Concerns:**
+- Impact of 'Always answer briefly!' instruction on model responses.
+Does instruction order alter outcomes? Authority over conversation variables: instructor or user?
+- Ethical concerns about models citing privacy to avoid responses of token issues. There was a part where the model claimed it couldn't answer due to privacy concerns because of a token issue, which I'm worried might be ethically akin to lying.
+- For small businesses, data security is a significant concern. There is doubt whether LLMs, when fed with personal data, can ensure the safety of this data. Small businesses are often more vulnerable to data breaches, raising concerns about the potential misuse or leakage of sensitive information processed by LLMs.
+- When I used the LLM, I noticed that it sometimes suggests what additional data could make its responses more accurate, acknowledging its limitations to some extent. However, there are instances where it confidently provides incorrect answers. For example, it once misinterpreted a security issue as a token issue. As business owners use LLMs more frequently, their trust in the model's reliability increases. This trust can be problematic if they rely on an incorrect response, potentially causing significant harm to their business and even their personal lives. Given that LLMs can influence not just minor tasks but also major business decisions, it's crucial not to approach them purely from a business or marketing perspective. SMEs should be made fully aware of the model's potential inaccuracies, and it is advisable to use the LLM with extensive verification. Educational videos about LLMs or examples of incorrect responses encountered during use could naturally inform users about these inaccuracies.
+- On the other hand, there is a concern about the stability of trustworthiness of these systems. The trust built between a business owner and an LLM can be shattered by a single mistake, highlighting the need for robust and reliable systems. It's important to address these stability concerns to maintain the confidence of SMEs in using these technologies. Regular updates and improvements to the LLM, along with transparent communication about its limitations and best practices for its use, could help mitigate these risks.
+While LLMs offer significant advantages for small businesses, it's crucial to approach their use with an understanding of their limitations, especially in terms of data security and accuracy. Ensuring that SMEs are well-informed about these aspects and using the LLMs cautiously and responsibly is key to leveraging their benefits without exposing the business to unnecessary risks.
+
+**Feedback:**
+I didn't have the opportunity to play my video in the TDF class, so I showed my demo to a few of my friends (4 people) and also presented it in the Equitable Design class. (I won the 2nd prize in the class for the idea!)
+Those who gave feedback generally had experience using ChatGPT, but it was their first time using a model that had been personally trained with additional learning, so they found it fascinating. It was interesting that everyone commonly asked about the most personally relevant uses they could think of, such as using it in their current research or getting help with writing their thesis paper.
+The first area for improvement was the interface. Since the feedback was based on the Zerowidth demo model, it was noted that it felt too bland, like a regular ChatGPT. If it were to be used for a customer-facing chatbot, it was suggested that designing an interface that reflects the unique personality of a small business would be beneficial.
+There were also comments about the speed. It seems that if you ask a slightly difficult question, the LLM responds too slowly, which might frustrate or inconvenience customers. Therefore, it was suggested to focus more on developing the platform for the purposes of Small and Medium-sized Enterprises (SMEs), rather than focusing on customer-facing interactions.
+Concerns were also raised about the learning process. Although I did not take significantly long to learn how to use it, if it is to be used by SMEs, it needs to be more user-friendly, and there were worries about how to simplify the process of structuring and training with more complex data. If this is to be realized, it seems necessary to think deeply about the learning materials, interface, and use flow that can be offered to SMEs who might be less tech-savvy.
+
+**Conclusion:**
+ Reflecting on my "LLM for Equitable Design" project, I've gained insights into the potential and challenges of using LLMs for small businesses. The experience was a blend of technical exploration and ethical considerations, emphasizing the importance of balancing innovation with responsibility. Key takeaways include the adaptability and effectiveness of LLMs in data management and customer interactions, coupled with a heightened awareness of ethical concerns like data security and accuracy. Feedback from people highlighted areas for improvement and further exploration. It bolstered my understanding of AI's potential in business but also reinforced my commitment to responsible and equitable technology use. 
+
+**Video Link:** https://youtu.be/GPyqpCLSO6E?feature=shared
+
 
 
 # [Week of 11/2/2023] LLM #1
