@@ -1,3 +1,36 @@
+# [Week of 12/8/2023] Showcase and Closing 
+
+
+
+# [Week of 11/30/2023] Building and Making
+
+
+# [Week of 11/23/2023] Exploration and Testing
+
+
+# [Week of 11/16/2023] Project Planning
+
+
+# [Week of 11/9/2023] LLM #2
+
+
+
+# [Week of 11/2/2023] LLM #1
+
+
+
+# [Week of 10/26/2023] Demo week
+This week was a demo week where we could see the work of different friends. It was enjoyable to see the unique characteristics of each group, from friends who focused on mechanics to those who tackled challenging coding, and those who stood out with outstanding ideas.
+
+I think I had a decent understanding of the parts I wasn't directly responsible for, and I was able to respond well when friends came to ask questions during the demo day. Additionally, when I went to see the projects of other teams, I was grateful that everyone kindly explained what technologies they used. One thing I wish I had done better is keeping more thorough documentation or archiving.
+
+![IMG_9530](https://github.com/Berkeley-MDes/tdf-fa23-hye-jade/assets/143137119/c276f5c0-b9d7-4307-90a4-fe53fdab37ed)
+
+![Uploading IMG_9531.PNG…]()
+
+![Uploading IMG_9532.PNG…]()
+
+
 # [Week of 10/17/2023] Proton2 #5
 
 Wristband
